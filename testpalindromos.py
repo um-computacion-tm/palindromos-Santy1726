@@ -2,17 +2,6 @@ from palindromos import is_palindrome
 import unittest
 
 
-def is_palindrome(mystring):
-    mystring = mystring.replace(" ", "")
-    for indice in range(0, len(mystring)):
-        print(mystring[indice] + " --> " + mystring[-(indice +1)])
-        if mystring[indice] !=  mystring[-(indice+1)]:
-            print("no es")
-            return False
-    return True
-    
-
-
 class TestPalindrome(unittest.TestCase):
 
     def test_a(self):
