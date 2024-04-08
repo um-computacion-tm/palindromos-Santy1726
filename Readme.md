@@ -4,4 +4,4 @@ Este programa en Python verifica si una palabra, frase o número es un palíndro
 ## Requisitos
 	python3.10.12
 ## Autor
-###Santiago Ortega 
+Santiago Ortega 
